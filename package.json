@@ -1,0 +1,30 @@
+{
+    "name": "jsquery",
+    "version": "0.0.0",
+    "description": "Turn any JS Object or JSON string into a queryable DOM",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JasonPollman/JSQuery.git"
+    },
+    "keywords": [
+        "json",
+        "jquery",
+        "dom",
+        "query",
+        "css",
+        "jsquery"
+    ],
+    "author": "Jason Pollman <jasonjpollman@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JasonPollman/JSQuery/issues"
+    },
+    "homepage": "https://github.com/JasonPollman/JSQuery#readme",
+    "dependencies": {
+        "proto-lib": "^0.2.0"
+    }
+}
