@@ -25,6 +25,6 @@
     },
     "homepage": "https://github.com/JasonPollman/JSQuery#readme",
     "dependencies": {
-        "proto-lib": "^0.2.0"
+        "proto-lib": "../../ProtoLib"
     }
 }
