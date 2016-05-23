@@ -1,0 +1,48 @@
+{
+  "root": {
+    "id": "root",
+    "array-0": {
+      "id": 0,
+      "length": 3,
+      "name": "test",
+      "data": [
+        1, 2, 3
+      ]
+    },
+    "array-1": {
+      "id": 1,
+      "length": 4,
+      "name": "test",
+      "data": [
+        1, 2, 3, 4
+      ]
+    },
+    "object-0": {
+      "id": 0,
+      "length": 4,
+      "name": "test",
+      "data": [
+        "a", "b", "c", "d"
+      ]
+    },
+    "object-1": {
+      "id": 1,
+      "length": 2,
+      "name": "test",
+      "data": [
+        "a", "b"
+      ],
+      "children": [
+        {
+          "id": 3,
+          "length": 2,
+          "name": "test",
+          "data": [
+            "a", "b"
+          ],
+          "children": []
+        }
+      ]
+    }
+  }
+}

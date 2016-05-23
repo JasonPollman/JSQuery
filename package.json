@@ -1,30 +1,40 @@
 {
-    "name": "jsquery",
-    "version": "0.0.0",
-    "description": "Turn any JS Object or JSON string into a queryable DOM",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/JasonPollman/JSQuery.git"
-    },
-    "keywords": [
-        "json",
-        "jquery",
-        "dom",
-        "query",
-        "css",
-        "jsquery"
-    ],
-    "author": "Jason Pollman <jasonjpollman@gmail.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/JasonPollman/JSQuery/issues"
-    },
-    "homepage": "https://github.com/JasonPollman/JSQuery#readme",
-    "dependencies": {
-        "proto-lib": "../../ProtoLib"
-    }
+  "name": "jsquery",
+  "version": "0.0.0",
+  "description": "Turn any JS Object or JSON string into a queryable DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonPollman/JSQuery.git"
+  },
+  "keywords": [
+    "json",
+    "jquery",
+    "dom",
+    "query",
+    "css",
+    "jsquery"
+  ],
+  "author": "Jason Pollman <jasonjpollman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JasonPollman/JSQuery/issues"
+  },
+  "homepage": "https://github.com/JasonPollman/JSQuery#readme",
+  "dependencies": {
+    "proto-lib": "^0.2.10"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-react": "^5.1.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
+  }
 }
